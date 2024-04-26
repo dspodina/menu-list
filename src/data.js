@@ -6,7 +6,7 @@ const data = {
             category: 'breakfast',
             price: 15.99,
             src: './assets/pancakes.jpeg',
-            desc: "I'm baby woke mlkshk wolf bitters live-edge blue bottle, hammock freegan copper mug whatever cold-pressed ",
+            desc: "A pancake (or hotcake, griddlecake, or flapjack) is a flat cake, often thin and round, prepared from a starch-based batter that may contain eggs, milk and butter, and then cooked on a hot surface such as a griddle or frying pan.",
         },
         {
             id: 2,
@@ -14,7 +14,7 @@ const data = {
             category: 'lunch',
             price: 13.99,
             src: './assets/pizza.jpeg',
-            desc: 'vaporware iPhone mumblecore selvage raw denim slow-carb leggings gochujang helvetica man braid jianbing. Marfa thundercats ',
+            desc: 'Pizza, dish of Italian origin consisting of a flattened disk of bread dough topped with some combination of olive oil, oregano, tomato, olives, mozzarella or other cheese, and many other ingredients.',
         },
         {
             id: 3,
@@ -22,7 +22,7 @@ const data = {
             category: 'desserts',
             price: 6.99,
             src: './assets/cake.jpeg',
-            desc: 'ombucha chillwave fanny pack 3 wolf moon street art photo booth before they sold out organic viral.',
+            desc: 'Cakes, originating as bread modifications, now encompass diverse recipes made from flour, sugar, and various ingredients. They range from simple to elaborate, resembling pastries, meringues, custards, and pies.',
         },
         {
             id: 4,
@@ -30,7 +30,7 @@ const data = {
             category: 'breakfast',
             price: 20.99,
             src: './assets/french-toast.jpeg',
-            desc: 'Shabby chic keffiyeh neutra snackwave pork belly shoreditch. Prism austin mlkshk truffaut, ',
+            desc: 'French toast is a dish of sliced bread soaked in beaten eggs and often milk or cream, then pan-fried. Alternative names and variants include eggy bread,Bombay toast, gypsy toast, and poor knights.',
         },
         {
             id: 5,
@@ -38,15 +38,15 @@ const data = {
             category: 'lunch',
             price: 22.99,
             src: './assets/soupe.jpeg',
-            desc: `franzen vegan pabst bicycle rights kickstarter pinterest meditation farm-to-table 90's pop-up `,
+            desc: `Soup is a primarily liquid food, generally served warm or hot that is made by combining ingredients of meat or vegetables with stock, milk, or water.`,
         },
         {
             id: 6,
-            title: 'waffles',
+            title: 'waffle',
             category: 'desserts',
             price: 18.99,
             src: './assets/waffles.jpeg',
-            desc: 'Portland chicharrones ethical edison bulb, palo santo craft beer chia heirloom iPhone everyday',
+            desc: 'A waffle is a dish made from leavened batter or dough that is cooked between two plates that are patterned to give a characteristic size, shape, and surface impression. ',
         },
         {
             id: 7,
@@ -54,7 +54,7 @@ const data = {
             category: 'breakfast',
             price: 8.99,
             src: './assets/toasts.jpeg',
-            desc: 'carry jianbing normcore freegan. Viral single-origin coffee live-edge, pork belly cloud bread iceland put a bird ',
+            desc: 'Toast is bread browned by heat, often in a toaster. It is a popular breakfast or side dish, commonly enjoyed with toppings like butter or jam.',
         },
         {
             id: 8,
@@ -62,7 +62,7 @@ const data = {
             category: 'lunch',
             price: 12.99,
             src: './assets/burger.jpeg',
-            desc: 'on it tumblr kickstarter thundercats migas everyday carry squid palo santo leggings. Food truck truffaut  ',
+            desc: 'A burger is a sandwich with a meat patty, usually beef, between bread, topped with various ingredients like lettuce, tomato, and cheese.',
         },
         {
             id: 9,
@@ -70,7 +70,7 @@ const data = {
             category: 'dinner',
             price: 16.99,
             src: './assets/steak.jpeg',
-            desc: 'skateboard fam synth authentic semiotics. Live-edge lyft af, edison bulb yuccie crucifix microdosing.',
+            desc: 'A steak is a cut of meat, typically beef, sliced perpendicular to the muscle fibers and usually grilled. Steaks can vary in thickness and come from different parts of the animal, resulting in various types such as ribeye, sirloin, T-bone, and filet mignon.',
         },
         {
             id: 10,
@@ -78,7 +78,7 @@ const data = {
             category: 'dinner',
             price: 22.99,
             src: './assets/meat.jpeg',
-            desc: 'skateboard fam synth authentic semiotics. Live-edge lyft af, edison bulb yuccie crucifix microdosing.',
+            desc: 'A meat dish is a culinary creation featuring animal flesh as the main ingredient. It can encompass a wide range of preparations, including grilled steaks, roasted chicken, braised pork, or seared fish.',
         },
     ],
     buttons: [
