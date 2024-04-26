@@ -9,14 +9,19 @@
 body {
     background-color: #f6f5f2;
     color: #274954;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
 }
 
 .title {
     text-align: center;
-    font-size: 22px;
+    font-size: 20px;
     text-transform: uppercase;
     margin-top: 50px;
     color: #1a3038;
+    font-family: "Platypi", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
 }
 
 .underline {
@@ -48,8 +53,9 @@ body {
     font: inherit;
     font-size: 18px;
     border: none;
-    font-weight: bold;
     color: #1a3038;
+    font-family: "Platypi", serif;
+    font-weight: 300;
 }
 
 .filter-btn:hover {
@@ -65,7 +71,7 @@ body {
     max-width: 90%;
     margin: 0 auto;
     padding: 60px 0;
-    gap: 50px;
+    gap: 70px;
 }
 
 .menu-item {
@@ -88,23 +94,54 @@ body {
 .item-info {
     display: flex;
     flex-direction: column;
-    font-size: 16px;
+    font-size: 14px;
     padding-left: 20px;
 }
 
 header {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     font-size: 18px;
     text-transform: uppercase;
     padding-bottom: 20px;
     color: #1a3038;
+    font-family: "Platypi", serif;
+    font-weight: 300;
 }
 
 .price {
     font-size: 16px;
     font-weight: 100;
 }
+
 .hide {
     display: none;
 }
+
+@media screen and (max-width:  1280px) {
+       .menu-item {
+        display: flex;
+        flex-direction: column;
+    }
+    .item-info {
+        padding: 10px;
+    }
+    .photo {
+        width: 100%;
+        object-fit: cover;
+        aspect-ratio: 16/9;
+        border-radius: 9px;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+     .items-container {
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 60px 20px;
+        gap: 70px;
+    }
+  }

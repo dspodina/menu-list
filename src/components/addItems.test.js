@@ -18,11 +18,11 @@ describe("create an item element", () => {
     expect(item.nodeName).toEqual("ARTICLE");
   });
 
-  test("className -> itemsContainer ", () => {
-    expect(item.className).toEqual("itemsContainer");
+  test("className -> menu-item breakfast", () => {
+    expect(item.className).toEqual("menu-item breakfast");
   });
 
   test("childrenCount -> 2", () => {
-    expect(item.childElementCount).toEqual("2");
+    expect(item.childElementCount).toEqual(2);
   });
 });

@@ -6,7 +6,7 @@ const data = {
             category: 'breakfast',
             price: 15.99,
             src: './assets/pancakes.jpeg',
-            desc: "A pancake (or hotcake, griddlecake, or flapjack) is a flat cake, often thin and round, prepared from a starch-based batter that may contain eggs, milk and butter, and then cooked on a hot surface such as a griddle or frying pan.",
+            desc: "A pancake (or hotcake, griddlecake, or flapjack) is a flat, round cake made from a batter of starch, eggs, milk, and butter, cooked on a hot surface like a griddle or frying pan.",
         },
         {
             id: 2,
@@ -37,7 +37,7 @@ const data = {
             title: 'Soup',
             category: 'lunch',
             price: 22.99,
-            src: './assets/soupe.jpeg',
+            src: './assets/soup.jpeg',
             desc: `Soup is a primarily liquid food, generally served warm or hot that is made by combining ingredients of meat or vegetables with stock, milk, or water.`,
         },
         {
@@ -45,7 +45,7 @@ const data = {
             title: 'waffle',
             category: 'desserts',
             price: 18.99,
-            src: './assets/waffles.jpeg',
+            src: './assets/waffle.jpeg',
             desc: 'A waffle is a dish made from leavened batter or dough that is cooked between two plates that are patterned to give a characteristic size, shape, and surface impression. ',
         },
         {
