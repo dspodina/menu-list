@@ -2,12 +2,13 @@
 
 ## Must-Haves
 
-> these are necessary for basic usability
+- [ ] Display menu items on the homepage.
+- [ ] Display an image for menu items.
 
 ## Should-Haves
 
-> these will complete the user experience, but are not necessary
+- [ ] Include a filter feature to allow users to search for specific menu items.
 
 ## Could-Haves
 
-> would be really cool ... if there's time
+- [ ] Implement sorting options for menu items (e.g., alphabetical, price).
